@@ -1,4 +1,3 @@
-
 body{
 	padding: 20px;
 }
@@ -12,7 +11,7 @@ body{
 	padding-top:50px;
 }
 nav{
-	margin-left: 450px;
+	margin-left: 150px;
 }
 
 #nav  li{
@@ -27,14 +26,33 @@ nav{
 	text-decoration: none;
 	text-align: center;
 	padding: 10px;
-
 	color:black;
 	font-weight: bold;
+	margin-top:20px;
 }
 #leftmenu li{
 	list-style:none;
 	margin-top:10px;
+	padding-top:10px;
 }
+#leftmenu li a{
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	color:black;
+	font-weight: bold;		
+}
+
+#leftmenu{
+	width: 150px;
+	height: 300px;
+	background-color:cadetblue;
+	margin-top:50px;
+}
+#leftmenu li a:hover {
+    background-color: LightSeaGreen;
+	padding: 10px;
+
 
 /*
 .sidenav {
